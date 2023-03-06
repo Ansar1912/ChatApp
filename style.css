@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainbody{
+    height: 100vh;
+}
+
+.sidebar{
+    height: 100vh;
+    background-color: whitesmoke;
+    float: left;
+}
+
+.sidebar .header{
+    height: 12.5vh;
+    background-color: whitesmoke;
+}
+
+.sidebar .header .profilepic{
+    float: left;
+    height: 100%;
+    margin-left: 5%;
+    padding: 4%;
+}
+
+.sidebar .header .profilepic img{
+    height: 100%;
+    
+    border-radius: 50%;
+}
+
+.sidebar .header .icons{
+    float: right;
+    height: 100%;
+    
+}
+
+.sidebar .header .icons svg{
+    margin: 0 5%;    
+}
+
+.sidebar .searchbar{
+    height: 10vh;
+    width: 100%;
+    padding: 3%;
+    background-color: white;
+}
+
+.sidebar .searchbar input{
+    height: 100%;
+    width: 85%;
+    border-radius: 10px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.sidebar .searchbar input[value="Search Here"]{
+    text-align: center;
+    font-size: 2.5vh;
+}
+
+.sidebar .searchbar .searchicon svg{
+    position: fixed;
+    top: 16vh;
+    left: 3.5vh;
+    width: 4vh;
+    height: 3vh;
+}
+
+.sidebar .chatlist{
+    height: 77.5vh;
+    overflow-y:scroll
+    
+}
+
+.sidebar .chatlist .chatbox{
+    height: 15%;
+    padding: 2.5%;
+    background-color: white;
+    margin: 1%;
+    border-radius: 1vh;
+}
+
+.sidebar .chatlist .chatbox:hover{
+    margin: 0;
+    background-color: whitesmoke;
+    transition: all 0.5s;
+}
+
+.sidebar .chatlist .chatbox img{
+    height: 100%;
+    float: left;
+    border-radius: 50%;
+    margin: 0 5%;
+}
+
+.sidebar .chatlist .chatbox .name{
+    font-size: 2.5vh;
+    font-weight: 500;
+    margin-bottom: 0;
+    height: 50%;
+    margin: auto;
+    line-height: 4vh;
+}
+
+.sidebar .chatlist .chatbox .last-message{
+    font-size: 2vh;
+    margin-bottom: 0;
+    height: 50%;
+
+}
+
+.msgscreen{
+    height: 100vh;
+    float: left;
+}
+
+.msgscreen .msgheader{
+    height: 12.5vh;
+    background-color: aqua;
+    padding: 2vh;
+}
+
+.msgscreen .msgheader img{
+    height: 100%;
+    border-radius: 50%;
+    padding: 0 1vh;
+    float: left;
+}
+
+.msgscreen .msgheader .chatname{
+    font-size: 2.5vh;
+    font-weight: 600;
+    margin-left: 2vh;
+}
+
+.msgscreen .msgheader .details{
+    font-size: 2vh;
+    font-weight: 350;
+    margin-left: 2vh;
+}
+
+.msgscreen .chat-body{
+    height: 75vh;
+}
+
+.msgscreen .chat-footer{
+    height: 12.5vh;
+    padding: 2.5vh;
+    background-color: blueviolet;
+}
+
+.msgscreen .chat-footer textarea{
+    float: right;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.msgscreen .chat-footer textarea{
+    padding: 0 4vh;
+}
+
+.msgscreen .chat-footer textarea:focus{
+    border: none;
+}
+
+.msgscreen .chat-footer .icons{
+    float: left;
+    height: 100%;
+}
+.msgscreen .chat-footer .icons .attachment{
+    height: 100%;
+    width: 7vh;
+    background: aliceblue;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 1vh;
+}
+
+.msgscreen .chat-footer svg{
+    width: 5vh;
+    height: 5vh;
+
+}
+
+.msgscreen .chat-footer .icons .attachment:hover{
+    background-color: red;
+
+}
